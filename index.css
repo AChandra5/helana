@@ -1,0 +1,143 @@
+.dropdown-menu {
+  display: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  z-index: 1;
+  background: rgb(112, 198, 229);
+}
+.dropdown-item {
+  background: greenyellow;
+}
+
+ul {
+  padding: 20px;
+  margin: 30px;
+  /* margin-right: 20px;
+    margin-left: 20px; */
+}
+ul li {
+  margin-right: 30px;
+  margin-left: 50px;
+  color: rgb(112, 198, 229);
+}
+.navbar-brand {
+  margin-left: 35px;
+}
+.btn {
+  left: 1600px;
+  width: fit-content;
+  height: fit-content;
+  background: greenyellow;
+}
+.btn:hover {
+  background: rgb(112, 198, 229);
+}
+#helana {
+  color: greenyellow;
+  font-weight: 1000;
+  font-size: larger;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+}
+#tech {
+  color: aqua;
+  font-weight: 1000;
+  font-size: larger;
+}
+* {
+ 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgb(36, 29, 32) 0%,
+    rgba(23, 28, 22, 0.751) 100%
+  );
+  min-height: 100%;
+}
+.navbar {
+  position: static;
+  background: black;
+  z-index: 1;
+}
+.nav-link {
+  color: beige;
+}
+.content {
+  display: grid;
+  grid-template-columns: .75fr 2fr;
+  padding: 25px;
+  height:800px;
+}
+.content .left{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(179,230,221,1) 16%, rgba(151,233,148,0.7511379551820728) 100%);
+    box-shadow: 5px 5px 10px 10px;
+    margin-right:2px;
+}
+.content .right{
+    background: rgb(35, 30, 32);
+background: radial-gradient(circle, rgb(37, 13, 24) 0%, rgb(37, 51, 49) 16%, rgba(5, 31, 4, 0.751) 100%);
+box-shadow:5px 5px 10px 10px ;
+margin-left:10px;
+display:flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+}
+.rightContent{
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+font-size: 50px;
+padding:2px;
+margin-left:10px;
+}
+.box{
+    background: #0d0d11;
+    height:32.8%;
+    margin-top: 2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size:25px;
+}
+.box:hover{
+    margin-top: 5px;
+    margin-bottom:10px;
+    padding:5px;
+}
+.digit,.virtual{
+    font-size: 100px;
+    font-style:unset;
+}
+.service-box{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.footer-row{
+    display:grid;
+    grid-template-columns: auto;
+}
+.left1{
+    background-image: linear-gradient(to right top, #a4427a, #924a84, #7e518a, #6a568b, #595988, #516594, #48719d, #407ca4, #3196bb, #1cb0cc, #1ecbd7, #42e5db);
+}
+.left2{
+    background-image: linear-gradient(to right top, #2a1521, #442e40, #5c4b63, #746988, #898aae, #8c9bbe, #91abcc, #97bcd8, #95bdcf, #97bcc6, #9cbbbe, #a2b9b7);
+}
+.left3{
+    background-image: linear-gradient(to right top, #74365a, #6b3862, #603a69, #533d6e, #434071, #374b7d, #265687, #03618e, #00789e, #008fa9, #00a6af, #40bcb2);
+}
+.text-right a{
+    text-decoration: none;
+    color:gray;
+}
